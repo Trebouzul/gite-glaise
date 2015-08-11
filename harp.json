@@ -1,0 +1,11 @@
+{
+  "globals": {
+    "app_title": "Gite de Glaise",
+    "app_author": "Trebouzul",
+    "seo_description": "Gite de Glaise guesthouse website",
+    "seo_keywords": "keymords",
+    "name"  : "Gite de Glaise",
+    "uri": "http://example.com",
+    "baseUrl": ""
+  }
+}

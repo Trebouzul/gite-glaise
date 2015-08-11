@@ -1,0 +1,23 @@
+{
+  "name": "gite-glaise",
+  "version": "0.0.0",
+  "authors": [
+    "clairezed <clairezuliani@gmail.com>"
+  ],
+  "description": "\"static website for guesthouse\"",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
