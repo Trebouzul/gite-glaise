@@ -48,7 +48,8 @@ npm update -g harp
 
 ## Deployement on github pages
 
-if needed :
+todo
+<!-- if needed :
 ```ssh
 $ git branch -D gh-pages
 ```
@@ -64,18 +65,20 @@ $ git push origin gh-pages
 Or, if needed:
 ```ssh
 $ git push --set-upstream origin gh-pages --force
-```
+``` -->
 
 
 ## Anatomy of the application
 
 ```
-static_site_starter/          <-- root of your application
-   |- harp.json               <-- configuration, globals goes here.
+gite-glaise/          <-- root of your application
+   |- .bowerrc                <-- Bower config
    |- README.md               <-- Hello, reader !
+   |- bower.json              <-- declaration of application dependencies (enables `bower install`)
+   |- harp.json               <-- configuration, globals goes here.
    +- public/                 <-- your application belong in the public dir
-      |- _layout.jade         <-- optional layout file
-      |- index.jade           <-- must have an index.html or index.jade file
+<!--       |- _layout.jade         <-- optional layout file
+      |- index.jade           <-- app must have an index.html or index.jade file
       |- 404.jade             <-- default 404 page
       +- assets/              <-- here are js, css and other public stuff
          +- fonts             <-- fonts
@@ -88,7 +91,8 @@ static_site_starter/          <-- root of your application
          |- _data.json        <-- items metadata goes here
          |- _layout.jade      <-- items layout, extending base layout & composed with jade blocks
          |- index.jade        <-- base /items file. You land here if url is "/items"
-         |- item-one.jade     <-- should have at least one .html,  .jade, .md or .ejs file.
+         |- item-one.jade     <-- should have at least one .html,  .jade, .md or .ejs file. -->
+   +- vendor/                 <-- third party libs
 ```
 Files and folders beginning with underscores won't be read
 
@@ -98,6 +102,7 @@ Good examples of how to use harp can be found in [the github repo of their websi
 ## To do
 - [ ] improve dependencies automation (make script ?)
 - [ ] check what is in bower.json (as it was made automatically without me understanding anything I was doing)
+- [ ] continuous integration and deployment ?
 
 
 ## Inspiration and improvements
