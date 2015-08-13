@@ -15,6 +15,10 @@ Powered by [harp](http://harpjs.com/). Dig here for docs.
 ## Development principles and wishes
 - Use of [BEM syntax](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) for css
 
+## Possible tools
+- http://scrollrevealjs.org : Easily reveal elements as they enter the viewport.
+- 
+
 ## Commands
 
 Install harp and bower globally :
